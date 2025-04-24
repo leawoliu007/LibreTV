@@ -1,4 +1,6 @@
-FROM fabiocicerchia/nginx-lua:1.27.5-alpine3.21.3
+# Default base image for ARMv7
+# For non-ARMv7 architectures, replace with fabiocicerchia/nginx-lua:1.27.5-alpine3.21.3 during build
+FROM imzcc/openresty:1.21.4.1-7-alpine
 LABEL maintainer="LibreTV Team"
 LABEL description="LibreTV - 免费在线视频搜索与观看平台"
 
