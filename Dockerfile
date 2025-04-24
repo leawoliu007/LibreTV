@@ -1,4 +1,4 @@
-FROM fabiocicerchia/nginx-lua:1.27.5-alpine3.21.3
+FROM imzcc/openresty:1.21.4.1-7-alpine
 LABEL maintainer="LibreTV Team"
 LABEL description="LibreTV - 免费在线视频搜索与观看平台"
 
